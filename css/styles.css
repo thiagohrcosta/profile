@@ -1,0 +1,88 @@
+.header-bg{
+  background-image: url(https://res.cloudinary.com/dloadb2bx/image/upload/v1619802708/photo-1566837945700-30057527ade0_g7ziq7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+
+}
+
+.container-bg{
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -100px;
+  background-color: #fff;
+  height: 300px;
+}
+
+.profile-container{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    margin: 20px;
+}
+
+.img-profile{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.first-name{
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 28px;
+  opacity: 0.5;
+}
+
+.last-name{
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 2px;
+}
+
+.professional{
+  margin-top: 50px;
+  font-size: 56px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.portfolio-container{
+  padding: 30px;
+}
+
+.portfolio-grid{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin: 20px;
+}
+
+.portfolio-box{
+    background-color: #fff;
+    margin: 10px 0 20px;
+    max-height: 320px;
+    border: 1px solid #E8E8E8;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-box{
+  height: 250px;
+  width: 100%;
+}
+
+.tech-tag{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-tag{
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+  background-color: #23049d;
+}
