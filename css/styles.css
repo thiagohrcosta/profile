@@ -105,16 +105,20 @@ body{
 }
 
 .academic-content{
+  height: 140px;
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
-
 }
+
+.academic-text-box{
+  margin-right: auto;
+  margin-left: 20px;
+}
+
 .academic-logo{
   border-radius: 50%;
-  margin-top: 20px;
   width: 100px;
   height: 100px;
 }
@@ -122,13 +126,13 @@ body{
 .academic-title{
   margin-top: 10px;
   font-weight: lighter;
-  font-size: 28px;
+  font-size: 22px;
   opacity: 0.5;
 }
 
 .academic-subtitle{
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   line-height: 2px;
 }
@@ -144,6 +148,7 @@ body{
 }
 
 .academic-tag-item{
+  margin-right: 10px;
   font-weight: bold;
   color: #fff;
   font-size: 12px;
